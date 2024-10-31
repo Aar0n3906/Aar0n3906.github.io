@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      SHCTF WriteUp
+title:      SHCTF2024 WriteUp
 subtitle:   记录一下
 date:       2024-10-31
 author:     Aaron
@@ -18,11 +18,11 @@ tags:
 
 进来是404 not found
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjYxYzZmYWNmMGU0ZjVjZGFiYmQ0MGM3ZjRlMTFjYjFfbkd2WUk2ZWtnZGxnOWJsYkZLQVRaUTJMcG1RY2NWQ1dfVG9rZW46T0s4RGJIOG5Yb01kUVl4YUdFcWNza08xbnhmXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![a3394d46350dc44c13f16473f452f668](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/a3394d46350dc44c13f16473f452f668.png)
 
 根据题目描述访问/robots.txt
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=OTQ4OTUyMmUzNWMzNmE4MmYyMzBhOTI1ZjcyYzBhMTBfTTNDZlJkS1ptWEo0M2xweVVTTXBEeHpMcjdzRHVjbFBfVG9rZW46RmN1aGI1d1I2b2hqaUZ4bTJlUmN6U0xsbmVkXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![12adfe8edae69c17254c8f7c38ae0947](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/12adfe8edae69c17254c8f7c38ae0947.png)
 
 访问得到app.py
 
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
 访问/api会自动执行ls /
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ODUzMmQ2NjgzNWQ5MzBiY2EzZTkwMTNmNzg2NWUxYjBfMHZUaUhMVEthSDBJM09LVmljMDVWaDdidWN3MkRoQTZfVG9rZW46Q3RRWGJsODFOb3l0WUV4MmdXOWM4WndNbmllXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![37923b9e820bf3f3c20f84141e24f7f4](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/37923b9e820bf3f3c20f84141e24f7f4.png)
 
 传参?SSHCTFF=cat /flag即可
 
@@ -68,13 +68,13 @@ if __name__ == '__main__':
 
 可以看到明显的base64编码，解码即可
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGIyMzAyMWZhMTg2MDI4NmY5ZDgyMzU5ZjEyZWMxMGVfajA1VDQ0YVBqQXRuV245NUhGdGdTcVNnN09JTmF3Zk9fVG9rZW46UFM2RWJsZmxIb0dzOVB4N2RqSmNXYUt1bk9oXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![ee3bfb1145e25bcf5921459178bd85bf](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/ee3bfb1145e25bcf5921459178bd85bf.png)
 
 ## [Week1]蛐蛐?蛐蛐!
 
 查看源代码可以看到提示
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MmRjNWVjNmM2NmU4ZDUyYzE4MzI3ZmVkYjRiNDRmOThfUXc3WDdKMmM2VVBtWVJ2WnJBQ1BDTHUzUzk0ekVmelRfVG9rZW46SGtvTWJ3ZFpvb0FBZFF4U2NTaGNwZGpvblplXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![1c8eb8286fd37d28720174e67e0bafbe](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/1c8eb8286fd37d28720174e67e0bafbe.png)
 
 访问/source.txt
 
@@ -99,7 +99,7 @@ else{
 
 第一个if用?ququ=114514a即可
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjBhMmNiY2NkZjU2MTFhNWIxMTA4NmM5ZGZlZDQ1MGRfSTB4d2FoRnN3TWVsdjVJREpJQ2lqWGh6Sko5cm83QTJfVG9rZW46SHYxNWJCWnYzb3pjZ3V4T2poU2NXbU05bktmXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![178bcb0151c22ce59d994c15ddba349a](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/178bcb0151c22ce59d994c15ddba349a.png)
 
 接下来post传参ququ
 
@@ -109,7 +109,7 @@ else{
 
 ququ=ququk1|system('cat /f*');
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=OTQ5ZmU4Zjg5NzYzMjkzMjg1OWRmOGU5YmM5MDNhMTNfa0o1UUJoRThXbUdjRDJmSlVSUjhyM1JlMU5sTHlpdFNfVG9rZW46WGVyUGJVVnlRb0FMNEp4YjVCcGM5ODVUbjdkXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![1127c0870e552163157ba5862a9de1f7](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/1127c0870e552163157ba5862a9de1f7.png)
 
 ## [Week1]poppopop
 
@@ -241,7 +241,7 @@ public class demo {
 
 发现是git泄露(其实题目名字也告诉我们了)
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=YTNjMzI5NDMxNTY3YjUwMzAxNmQ5MzBjOTRiMzVkOWVfTXNIRk9uVFRnaEdjVEVJOWJLc053RnpIaTZhZ29zbGlfVG9rZW46WllYZmJOT09qb0JuYmd4N2NvN2M2aW83bmhoXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![2592182dad0c0d7e1159ba29c6ab51bb](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/2592182dad0c0d7e1159ba29c6ab51bb.png)
 
 使用处理git泄露的工具git_extract
 
@@ -251,7 +251,7 @@ python2 git_extract.py url/.git/
 
 用python3会报错就换python2
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MGExODgwZGVjMThhNThmYTdiZjNkYjI0ODNhMDRhMDlfMjhWWUhzeFhhejhRNTI5Szc4bHJNTVROYU1YRlJub09fVG9rZW46TmFYdGJLVEJEb3NtOFh4UFVERGNtbTJGbjJkXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![48cac87aba57920e1b6709eb1be28e13](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/48cac87aba57920e1b6709eb1be28e13.png)
 
 该命令会把/.git/下个版本的文件恢复
 
@@ -259,7 +259,7 @@ python2 git_extract.py url/.git/
 
 恢复的文件会放到该工具所在目录的entry.shc.tf_49410文件夹下
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MzYxNDM0MmNhNmZlN2Q1NDFlYzg5OTA4MzdhYTk4NTJfaXlxUENWY1pDMFJvSVZnbkN4THJCNVF4QjFFM005WUFfVG9rZW46SlZldGJwUDl2b0RJUk94UjRDR2NENm1RbjNiXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![99c99831308f96ca0b43137ff75921ac](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/99c99831308f96ca0b43137ff75921ac.png)
 
 打开flag文件即可
 
@@ -292,23 +292,23 @@ else{
 
 直接把txt拉到exe里，会自动执行
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=Njg3Mzc2NTMwMWE4ZmUzZmViMzI1ZGQ3MzdiNDBkOThfdFJYbHpuY0FYMTgzSDJ3cHJmUDBVME5KaXJUMzY5YlZfVG9rZW46V1B3V2JVWkJ4b1JrNlR4WXYzNmMxeGRIblplXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![6ef140d77a5baf2b1132f27fcde90e2b](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/6ef140d77a5baf2b1132f27fcde90e2b.png)
 
 用exe执行后生成两个文件
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=Nzg4MzgwYWFkOTY1MTJhODQ4NzFkYjJlZmY1YjA2YWFfcHJqTjBUdVY1a0pONmxIMklMVEFCdEd1ZllTY3lOUHNfVG9rZW46UVBWZGJmY0lSbzBjakR4UFpJQmNHOE9nbmlWXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![c3aa4934ce3ca1e1d354f4c3c1289299](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/c3aa4934ce3ca1e1d354f4c3c1289299.png)
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=NjJhNzQ1MmE1Nzg5NDM0OTcxYzZiOGRlZmFkODlhNjVfbUUwMlJocnZGSVhmSUlRb0czSEtmQlF1RmxxMlJRQllfVG9rZW46QjA1SWJpT1N2b2U5cmN4SHNpZ2NRNHM2bm5oXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![ca0acab5f7a895c1857550c78d8aa452](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/ca0acab5f7a895c1857550c78d8aa452.png)
 
 但此时两个txt文件都是乱码
 
 找个脚本将两个文件进行url编码即可
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MGRkNGFkZDQzOWQ0NDM3Y2NmMWEwYTI5ZDQxZWRkZGVfT2Z5QVFxRG5DRGZtU2R6M3F4bnoxbTBkYzE3V2hCcHJfVG9rZW46VGx3TWJ4dE1Yb0c0RnR4U2JNQmNVSERQbmVjXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![0012e4c84a7340ef9d0a794a34efa12e](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/0012e4c84a7340ef9d0a794a34efa12e.png)
 
 传参即可（注意别把!编码后的%21传上去了）
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=Zjk5MWI2OTY3NDFkMzJjNDBjYWY1OTQ1MTE3YmM2ODJfMFdTeGxCVnRWOG4xMzFBanVWT25URFB3dElZYkVEeUpfVG9rZW46T2h4eWJyZU1Fb0psQzB4U0d6WWNlVTRsbm5kXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![a2b2e50d8e9fda67221deffff9e0377c](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/a2b2e50d8e9fda67221deffff9e0377c.png)
 
 # Misc
 
@@ -316,61 +316,63 @@ else{
 
 **扫码二维码关注公众号发送信息得到flag**
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjUwMDcwODg1ZTY0N2VkM2YwMDVlY2VkODEzMjNlY2RfbTh2WXI0SElkbUZKUEVvYnBJQVlROG9nQmtkRllEUk9fVG9rZW46UVpJTGJuQ2FtbzVIWW94M2JuY2M4a3FubnpjXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![e9ea2cd9e612d985ba1d1016dfc8e93d](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/e9ea2cd9e612d985ba1d1016dfc8e93d.png)
 
 ## **[Week1]真真假假?遮遮掩掩!**
 
 首先得到一个压缩包，解压是看到有一串掩码，以为要掩码攻击，
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=OGE5MDk5M2I2ZWQ3NjY0YzU0ZjQ3ODEyNjUyOTBjNTBfakp4MjFvOUhPQ2xGcTlGeGhZNnlBRDM1SHZabTBuWDFfVG9rZW46VzNOY2J0VXJxb0dOVkV4b0J0RWNnOVZabmNlXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![f67016c49ef83ac065413d41c09fc8c9](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/f67016c49ef83ac065413d41c09fc8c9.png)
 
 但是可以直接解压，然后下一个压缩包还是有这一串掩码、
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjFkYWI4ZjM5NTljNTI4OTVmMjNkODM3OTI4MTBhZjFfTDFSakpPenRuSm9FWlZVVDR6eFJQa0JQbXZQWWNNdEpfVG9rZW46VnhKYWJBeTJQb1hockp4WWt2NGNNNjFRbmViXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![56b62c4a2ada9762c0b869c2b1dc0358](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/56b62c4a2ada9762c0b869c2b1dc0358.png)
 
 所以直接掩码攻击得到密码打开压缩包
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MTgyNTY1NjY1Mjg1MThlNDNkZTRhYjQyNDhlNmU2MzRfcGpYdHd3SVRmaGJKekFrOE9Da3V3eWZlbFJ0QXJmSmJfVG9rZW46UThLNGJHa3BUbzJPcWl4eEY2RGMzQmRzbmJiXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![c241d94a57f38b2b68e5fc0730e0991c](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/c241d94a57f38b2b68e5fc0730e0991c.png)
 
 打开得到flag
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=N2MzOTVhYjVkZDA5NTQ1ZjMxNTM1MzA3MDAxYWZiYTlfNDdBNVBpWjZCQkYzdDZTOVFYVm5CcTBjenFyRmx6R1VfVG9rZW46TGluemJkazRlbzRuUWN4dEtnc2NDRmhjbldkXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![image-20241031084119376](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084119376.png)
 
 ## [Week1]拜师之旅①
 
 首先得到一张打不开的图片，放进010看
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MGU0YjllNGY1Yjk3NGU1MzdhNjI0MDEzZTUzZjVmMWVfa3dkcGFXMjlkWm9NNmQwT2xPUG1wUXo2U1gwcjBXZ3RfVG9rZW46QXdIZ2JiUUNKbzAwbHl4Y1M2a2NXTFI2bkRZXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![img](C:/Users/Aar0n/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif)
 
 缺失头文件，加上89504e470d0a1a0a
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=YWNmOGUyYjZmNjBlOWY0ZWJkMmE2ZjI0YjdhZDY4YmJfTDE4QnI2RDVGVkhPREZWRGZNNVljcjBxMVdscnJJcnRfVG9rZW46SUdOQ2J3WDc2b241cHd4dWlKNGNEeDU3bkdnXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![img](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/clip_image004.gif)
 
 可以打开图片，然后看图片，发现图片宽高不对，一把梭修复得到flag
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MjhjZTViMjk3NTZkMDQ2NDRkOWJjODI1MTIwYTdlMzNfV2VuT0ZaZkFVYlBSalRpb0F2d05XaWRSMEs1M1BtVmxfVG9rZW46RmpXRGJWbnZTbzhzUVB4UGp6N2NxM1Y5bnZlXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![image-20241031084152185](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084152185.png)
 
 ## [Week1]Rasterizing Traffic
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=NTdiM2QyMTk3N2I5Y2FlYzZiNzQxZGY2YzQ5YTY4MGNfbVdSM3pXZXlOWXlXWjVKY1p0bFE5bDhkaWl1MFhRQnNfVG9rZW46Vm9lWGJRZWYxb1lVelp4b2I3YmNLcTFPbmJmXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+ 
+
+![img](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/clip_image002.gif)
 
 导出一张图片
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MTJlMjQ1MzA5OTZmOGVmNjdmN2FkZjEwZjNhMWFmODFfeFFOeFNsdmZqRTNzcnJId09NZ2VseVU5WFZDSGdFN0pfVG9rZW46TGxFSWJNQWdjbzFXVjd4OE1zTmNORVJPblhiXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![img](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/clip_image004.gif)
 
 光栅脚本解密
-
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MGFiMTY5ODI1ZGEzOTg2YjNmYmE5YmUyYzk4NGUzNGNfbWJ6SDZZZEl4enVaZWRyNTY1RTQ3UHZVaG80T0s5RFlfVG9rZW46REVIWGJVWEhib0daWk54YnFpQWNnSk5Ebk5mXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
 
 ## [Week1]有WiFi干嘛不用呢？
 
 首先把may里面的文件里的东西全部提取出了成为一个文本
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MGY2NWFjNTc0NTZiYjQ1NTRhZmI0MGE5YzI1OGM2ZWZfVDM2dUd1eDZoaGQ1TUNGUmNYdkxOWmJzUnpsQ0czTFVfVG9rZW46SmM5eWJ4M2U2bzBRWkN4T3VaSmNSMXVrblNoXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![img](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/clip_image002.gif)
 
 然后用aircrack-ng跑得到密码
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MWU3YTNkMjIyMTFhYmVmODViOGIxNTJlM2FlMjNjOGFfY2s1bVZOTFY0RHQ4b3FGUjdoTFp1S0oyMHJsZGhpMW9fVG9rZW46WUs4VGJzcFlnb2JqeUt4Tk5DSWNhY1F1bnBiXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![img](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/clip_image004.jpg)
+
+ 
 
 ## [Week1]Quarantine
 
@@ -435,13 +437,15 @@ with output_path.open("wb") as decrypted_file:
 print(output_path)
 ```
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDA4OGQ1OGMxMTUxNWUyNGYzZGU3NTcxMjQwMGQyZmNfc01hcXpqVEpTMFMxQTVvQVhxNkpucktyYUlwbFRmNG5fVG9rZW46RmprNmJndnprbzVWa1d4YjZJS2NsdGhtblNlXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![image-20241031084300658](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084300658.png)
 
 将base64解密之后是一个Zip压缩包
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=OTJkNmUxNjI0NDQ5YzM0MmY2OWU5YjkwYmZjMTFiZTRfakZrUmt2UGVaVzJvWUdUV2RXQU9GTE1Bbld3aTl3U0FfVG9rZW46WGhyMWJhdFpQb1VvT3V4WW0yQmNYbWgxbklIXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![image-20241031084315081](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084315081.png)
 
 下载下来之后有密码
+
+跑一下rockyou字典即可得到密码解压得到flag
 
 # Rev
 
@@ -1018,31 +1022,31 @@ if __name__ == '__main__':
 
 再使用熊曰解码可以得到flag
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=N2YzYzYyM2YxZTRiM2RjMTM4MzUwNjk3MzBmYzc0YTVfWDNjUEs5RVg0RmlidDkySWtqWmMxVTdrbnNHMUd6NkpfVG9rZW46SUVjRmJTNVk5b0lOUDB4b1FPVmNieEpjbnVoXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031084520805](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084520805.png)
 
 ## **[Week2]拜师之旅②**
 
 图片包含多个IDAT块，发现其中一个IDAT块异常
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=M2MxNjAyZDM2NDY3YTdjODQyNzEyMTE3OGMxNzUzMTdfZ1BxRUJiVlEzSjNxblp3WUM4dDJ6cXZ6ZzQ2TDI3NmpfVG9rZW46UDZ3WmJIQVFib2o5Tjd4SXY3dGNMWVVrbjVmXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![img](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/clip_image002.gif)
 
 使用010editor打开，将trunk【1】-【4】全部删除，最后保存文件
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTkwYzdiODQ0NGIwYTM4YjJkNmEwM2RlODhmMjhjMjRfNEdnS3BWVEFXUDFjNEYxeTJDUVNPYkhlMHJpOTlpS2JfVG9rZW46RWNRYWJ2VGNCb2llMUJ4Nnd2c2M1UGRSbnZkXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![img](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/clip_image004.gif)
 
 得到flag
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=NTg5MmQxNGU4ZDgxNTY3NGFlYTcxZmY3ZjA0NjE3ZTNfMEIwWWZBTnNuMjhEaHFwTjVnSnVpOEd0U1pXcW1hck5fVG9rZW46RDQ2dGJpUlNkbzNLT014MlZIMGNScE5LbkpiXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![img](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/clip_image006.gif)
 
 ## [Week2]Schneider
 
 找到施耐德工控工具，注册账号后下载
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MGQxMDZiNWRjNGM0ZDJhYjU1NDIyZDQxZTQ5NTU4ZjRfQ0VaOFBtMVJWOFBFOXhnY1ZmM2x3b0dkMkg3NENtanNfVG9rZW46WkJ3RWJQajd6bzVDTnN4NEhEM2NIbGkzbkJkXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031084827730](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084827730.png)
 
 使用工具打开即可
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZWRjZTQzY2ZkNzRiMTQzZWE0MjcxYjRhYmRiZGJjODVfRHBhOVRHUkJXTFRKQ3RsZjZFRU9yd285WnFnM0pNU0dfVG9rZW46SmpXbmJKcDhCb1hCcXZ4WDZZRWM2UlA5bldjXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031084842310](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084842310.png)
 
 # Web
 
@@ -1050,7 +1054,7 @@ if __name__ == '__main__':
 
 在源码看到提示
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MzAwNDc1ZjFiZDc3Mjc3YjJjNDJhMmNhNmI4MmVjYTlfT21EdTdmSWVWczVUOVFVNkFjZEtuckRISHRQU0E3aDlfVG9rZW46QnBPMmJGaXhlb0FrNWJ4bnBlb2M1V2kybmllXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031084858419](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084858419.png)
 
 下载附件得到源码:
 
@@ -1114,7 +1118,7 @@ else:
 
 得到seed为:4819039
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=NmJmYzdkNzk4ODFkZDAxNWZmMWEzZDA2ZmU4NTA2NzRfaTFTR1J0RnFXdUZaTGFKWTNBVkRLMktvdWFZcWVTQVBfVG9rZW46SEFoZWJjMDM1b2VIRmh4NFVsRmM3a1VDblNlXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031084622556](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084622556.png)
 
 然后再构造脚本求得second_num
 
@@ -1142,7 +1146,7 @@ else:
     print("Failed to match the first number.")
 ```
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=M2UyNjFmOTY1YTMwNjg3MmYxYWE5MzUwMGIwYjhlNjNfbDZ5RXhiMHJvdzlSQVFrWldXTGFiQ2dNUzhqejlYRnNfVG9rZW46U3U2a2J2c2Jqb2JZaDR4Rm1PbmM4cTMybjdjXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031084633172](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084633172.png)
 
 输入即可得到flag
 
@@ -1201,11 +1205,11 @@ python flask_session_cookie_manager3.py encode -s "0day_joker" -t "{'role':{'fla
 
 得到sseion
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=YzI0OThjYmI2NjliNGRkYTM5YTljMzQ0MDJkM2ExMDFfV1VzMWhLV1RFV1N5U3hwS3A2MzJYejk5Z2o2MjdueGRfVG9rZW46STM1UmJEaTdhbzgzUFF4OGVMdGNFUDJPblh4XzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031084919136](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084919136.png)
 
 在/admin路由下传入
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MzM2OWM1MDQwNjM1MjI0MDE2NzQzMGYwYmIzN2RiYmRfNmxtRjVESHlQdWVBcmp6WlYwY2hNS0VVUE9GckJJU2lfVG9rZW46RkdvNGJRbFdtb0RnSU54VGl4QmM4dTUxbjhiXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031084937221](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084937221.png)
 
 回显了10，说明伪造成功了，而且确实是ssti
 
@@ -1215,7 +1219,7 @@ python flask_session_cookie_manager3.py encode -s "0day_joker" -t "{'role':{'fla
 
 python flask_session_cookie_manager3.py encode -s "0day_joker" -t "{'role':{'flag':'{{config.__class__.__init__.__globals__.os.popen(\x27cat /f*\x27).read()}}','is_admin':1}}"
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=Nzg2ODM5MzA4ZTZmYzg2ZDM4MDliZWUxNGYwY2Y4ZGJfS0xiNHN5TkREeGRDRHV0enpuT0VqclpwelVuQVR5RGtfVG9rZW46RkljTmJ1cjRmbzdESHp4UlFUV2NrNGI1bjRnXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031084950084](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031084950084.png)
 
 传入即可获得flag
 
@@ -1433,9 +1437,9 @@ setTimeout(main,300)
 
 使用魔改jadx对module.abc进行反编译
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MmM0ZGJiYTg4NDAxY2I2MzQ3ZjRlZGMxYzM4ZDAzZTRfM0ZGVDRrN09TWGhQSHI5RWJCR2FJVFUzU2FWUjRVZFFfVG9rZW46SVZtRmJBWlBZb3FxMER4MmxwU2NEWUNNblZnXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031085011746](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031085011746.png)
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=NzNiYWVhNjlhNTk3M2ZmYTg3YjE5Y2YwMzU1NjdlM2ZfRjhPSmU0YTZGQkxkRDB1RGpydlQ4N05KVUo5NnF0dE9fVG9rZW46VzZEdWJqM0Rhb1RkQTJ4aFJnWWN0aVlubnJiXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031085021475](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031085021475.png)
 
 对这段代码进行解密得到
 
@@ -1464,7 +1468,7 @@ de_data = decrypt_string(data)
 print(de_data)
 ```
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZGE3NGJkZjUzYjJlMWY5OTg0ZjUzNThhMDRkNzVmMTlfZUNiUm5BMVFpc2xLRzhMVU9KUnpHdm9JRXlxSkttVXBfVG9rZW46Q1Z0VmJOdW9pb2ZTZFZ4WnhhR2NKWm1UbkVoXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031085040920](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031085040920.png)
 
 使用bfs将迷宫路径输出
 
@@ -1573,13 +1577,13 @@ else:
 
 使用鸿蒙NEXT模拟器安装软件将密钥输入
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=NGNmZDA2ZTU0YmQ1MWUzY2M5NjIwMGNlZTExYzdjMWNfeGJKektoaUhnZ0tsT0hPZXFhOEQ3dTZuQTJzQTM5NzJfVG9rZW46VUtWQ2JJMGg3bzRoTHJ4UnY3NGNDTVhBbkhmXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031085231780](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031085231780.png)
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=YmE2YzgxNTUyMmM3MGQzMzJmNjg0OTVhMDQ0OGRmMWVfMDczN1hodkhSdXNZM1diQTB4QmRuc2ZUUXpWMUdQdzBfVG9rZW46TzdUQWI5Rzljb3ZkajF4SkRMYmN2SWd0bnZlXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031085108365](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031085108365.png)
 
 在手机文件夹下找到输出的文件
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MTJlN2JmMGQ3OGVkNzJhMTU2MWQxOWNhMjViMjk4N2NfR2c2RGVWMXBmbmE3SHowR2lodnd6dk90MU5KMklJcVpfVG9rZW46VTg0RGI0aFZXb1d1bnl4V2U1UmNIVFBNbkFjXzE3MzAzMDcwNDk6MTczMDMxMDY0OV9WNA)
+![image-20241031085254487](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031085254487.png)
 
 将文件的数据提取出来，使用bfs跑出的路径将途径的字符输出
 
@@ -2023,24 +2027,6 @@ plaintext = decrypt_rsa(c, n, e)
 print(plaintext)
 ```
 
-
-
-# Misc
-
-## [Week3]完
-
-首先丢010看到有jpg
-
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=Yzg3NjBmYmU0M2FmZGFjNTVlMjNiYmRhMDgwYjIyNGVfWGNUS3JlTG1GSnBqNmtUNUI3akNaSkhxUmg0WmxvZHJfVG9rZW46V1lFcmJnRnBGbzRzSEl4UXdGVGNoNEdzbmVoXzE3MzAzMDcwNjM6MTczMDMxMDY2M19WNA)
-
-然后foremost分离之后，得到一张图片，
-
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MDc2N2U0MWRlNTdlYTVkZDAxODZiNzQ4ZTAyNzQyMjRfUW5LQlBzd0ZrMU5VbzNoS3lKTTVYQWJkcGE0T1dOWUVfVG9rZW46Q2c5OWJNYkdSb2thVHR4OTh0T2NxZ2Z0bjhjXzE3MzAzMDcwNjM6MTczMDMxMDY2M19WNA)
-
-但是010结尾还有一串base加密的密文
-
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=MjY5OWI3NjY4ZTRlZTA2NjU2Njg4ZDUwZjY0MjEzY2JfenFaTVJINTJpSlpRZWdCN3NGekJSaFFGekpHbjlDbXNfVG9rZW46Tm9XcmJOTmx6b3piMTZ4bll2NmNUeVp2bm5iXzE3MzAzMDcwNjM6MTczMDMxMDY2M19WNA)
-
 # Web
 
 ## [Week3] 小小cms
@@ -2123,7 +2109,7 @@ Content-Length: 7
 1=/flag
 ```
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=YTk3Yjg0ZjgxZDM4NWQyODAxYWU5YzdmYzA0NGIxZjhfb2l1TTM0Umo5M1pUQkU5Mk1ob0ZMNTVFQlpWMW1rbUxfVG9rZW46QlpQb2J6d1Axb0RtTzl4c24zbmM5NUl0blVjXzE3MzAzMDcwNjM6MTczMDMxMDY2M19WNA)
+![image-20241031085430342](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031085430342.png)
 
 # Rev
 
@@ -2233,7 +2219,7 @@ function main(){
 setTimeout(main,300)
 ```
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=NmNiNjIzNzc2YThhOGRlYjY5MTZjZWMxYjM5ZWUxNDVfVWJXT0VhSDc4aGRSYnFQaXNlQjVvUmQ5N2xMcmkwY2hfVG9rZW46S09KTWJ3Q0pob1JuTU94b2JOVGNPbTU2bndnXzE3MzAzMDcwNjM6MTczMDMxMDY2M19WNA)
+![image-20241031085446340](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031085446340.png)
 
 ```Python
 import hashlib
@@ -2268,9 +2254,9 @@ for combination in itertools.product(charset, repeat=len(mask_positions)):
         exit()
 ```
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTEyMjYzNTVmMWNhN2I3MWY5NzE3NWNkNmVmZGU3MmZfSDRZMlZ5Skt0UUdGT05ER092UTAwdmViSEJHeWhMaDlfVG9rZW46VUdVQWJlMUY3b1VzZFJ4WXhNS2NnZVhPbmZkXzE3MzAzMDcwNjM6MTczMDMxMDY2M19WNA)
+![image-20241031085544504](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031085544504.png)
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=N2UzMzEzOTE1YzRhYjdhZTM4NDQ2Y2IxYTYwOGU1ZWNfdHFlc0N1T1dwNXltNmhFdFp2aXQwNHNqTG5hdFFKNGtfVG9rZW46VEJyQmJBTWtpb2lZMTB4MTBVemNNeUlibnBnXzE3MzAzMDcwNjM6MTczMDMxMDY2M19WNA)
+![image-20241031085609088](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/image-20241031085609088.png)
 
 ida动调获取加密后的值，直接还原得到flag
 
@@ -2855,27 +2841,27 @@ p.interactive()
 
 在init_array段有函数，进行分析
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=NjU2YWEwZjUyMGI3OWRlYWQ3ZTkwZTQ1MDU4YzQwOWNfZTZaN2E1R2Q5RmJDS2w0UVpwSXJlZ2dGSDY5aG92bm1fVG9rZW46RlJMNGJOUDlabzhOZ3p4bHNDUGNQd2NIbkFoXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![260631808b30c27e4100c3523008f64f](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/260631808b30c27e4100c3523008f64f.png)
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=OTdmNmEwMWMyYWI3OTkyYTNjMjM2YjdkMWJhM2VmZWNfQmxMdlJIRHlaNVZqU2VGTzM0b1FOYjZVcVFMZ0tDZVdfVG9rZW46RnR1UWJHdjF3b0d0RDB4MDVJaGN1RnhibkllXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![c81221afba779b6cc2208fb88a059440](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/c81221afba779b6cc2208fb88a059440.png)
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=MTU2YzJhOGIwOWZkNzhiYWE2MzFjODZlNmIyNGM2ODVfRThEV1hhWlBTQkRFZmlDWUJkNUhiTGRHYVNGUTZJVVZfVG9rZW46RXJ0bWI1cmptb3pUMXl4VlR6WmNESkxBbmxmXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![0b661a84363e185917e3a0a99145340a](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/0b661a84363e185917e3a0a99145340a.png)
 
 发现使用libc中的函数进行了检测
 
 但是是由pthread创建的线程函数中进行检测的，我们可以hook pthread使其最终返回为true
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTc2MjI2MmMxOWM5ZDg1NmQzMWZkOWE3ODM0MzQzZmRfNFNUcmprVzlFYU4wNUpUbVJGeGpucFBPTEVGajBjZTFfVG9rZW46RUsyRmJ2MnByb3N3Rld4cWZjZGN3NTNGbk9iXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![972025c8bafcde08d86bafadbf6a4e70](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/972025c8bafcde08d86bafadbf6a4e70.png)
 
 主要的判断在这个地方，我们只需要对函数找到偏移量设置寄存器的值使其相等即可
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=MGE2YWVkOTBmMDQyM2VmOGJiMzFiN2RhODQyZWJmNzZfZENaZ2MzVGFrWFViblh6NG41akZWdHRhQnNXWDdoRXdfVG9rZW46UlpiM2JaVnJGbzlkME94MGZ1MmNoOWVCbndoXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![2708effd9eae9a7ef6e40a6bc813bdbd](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/2708effd9eae9a7ef6e40a6bc813bdbd.png)
 
 过掉检测后即可hook ID使其与预设的id相同了
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=Mjc2ZmU1YmZkMmYyY2FiMWNlZjViOTJlNmM3YjI2NTFfV0lFU1R4WU9OazZTSUdXbXpieFZ2dVBMT0RVNVFZajFfVG9rZW46TUNyM2Jyc2JlbzYwZEV4OURtbGNBbEhtbkhrXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![img](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/2708effd9eae9a7ef6e40a6bc813bdbd.png)
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=NTFkNmNjNDc1MzczZTNiNTAxMTVhNmZkOGRiMTE2YzhfYnJaTlJQbkpmWnJSZWxmR2ZWOUNUcG9ja2p6UnVubWFfVG9rZW46WkQwZ2J0eDJRb2dyWTN4MzVGdGNjV0R2bjlDXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![23770fb47738454244c7d5bb41b5f008](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/23770fb47738454244c7d5bb41b5f008.png)
 
 Hook X0寄存器的值即可
 
@@ -3112,17 +3098,17 @@ print(flag)
 
 encrypt里有明显的sm4_cbc加密 我们可以根据传参找到key
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjhmMTg2MzI2MTJmM2Q0YTUwYWM0ZTQ4MWJlZTBhZTNfU3NMRGZzUFNnWHNBeGpzWUo4cGhsRXByNFl1azdoUG5fVG9rZW46Slhka2J5TFRKb3Vzd3h4QVlhb2M0TUJ0bmtoXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![90e100336c0a6394939b98e5a5547721](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/90e100336c0a6394939b98e5a5547721.png)
 
 在函数里有iv的生成方式    **即为rev(key)**  
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=NjhhMGQ1YWVjOWVhMWUyZGUxZDBhYmE3OTliNTMzZDdfVE1oZzlQMHdacDdudXV4STF3OFlQOUVzcUJZM1ZJZHZfVG9rZW46RGhFT2Iyak1Wb3hRRkZ4bENNWGNSSGFqblVlXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![cbed25e990ff9f3de14c6806626be0e7](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/cbed25e990ff9f3de14c6806626be0e7.png)
 
 所以iv为：B58F61DDCCC4422DEF6C66EAF8AD815D
 
 密文（emoji）为：
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=YzMxZTYxYzI1ZDA4NTE3ODI3YmI3ZDY3MWQ4YmZmYmFfQWI0eGllV0pSbEg5T3BINVZoOGpiTFViZEJsbHdFNm1fVG9rZW46SW01b2JTZEVtbzRLR2R4MGZrVmMwNHdjbkloXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![0ab869d3c9fd409f07852c1727e8d60d](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/0ab869d3c9fd409f07852c1727e8d60d.png)
 
 我们可以根据make_emoji函数里的值写出解密的脚本
 
@@ -3144,7 +3130,7 @@ for i in range(0,len(a),4):
 
 发现可以对输入后的密文进行解密
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=ZjAzYjY5YmNhYWJkYzE2ZjdhNTNhNjBkN2E0ZDkxMTBfWGp4b1FaclpqbEZEMEcydThJSDloNDl5eXlrZXJScGFfVG9rZW46VExqbWJNc2tSb0drTlh4TFYzNmNUdzlBbk5lXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![a978c353e4baa0619080bc8c6195ff20](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/a978c353e4baa0619080bc8c6195ff20.png)
 
 但是不能直接把ida里的check emoji解密
 
@@ -3152,9 +3138,9 @@ for i in range(0,len(a),4):
 
 动调发现最后的主要判断逻辑在check里，在closure_0函数里有对解密密文的逐位判断
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=MTdiMDQ0MzY5YjM2Zjk2MzdlMjU0NmYwNjVhODljYTNfZDQ3bngzNFFXTXZkc0xIWUt0YXNQNE1YeW13b0VYU2xfVG9rZW46QkJiSWJtNnZ1b252U2t4NDBJYWNOZDdUbnRjXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![791cd6312b134a51c0aa4563505b2dda](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/791cd6312b134a51c0aa4563505b2dda.png)
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDIwZjJhMGNiMzY4ZjEzYjVlYWQ4N2U1ZjMxYTk1YzVfb2UzNmtrVmUzQ2ZhVk9kV1Y5U0hXS1g3WGNGZU1HUDVfVG9rZW46QlkyRmJNdmtob084N2V4d1VpSWN6N3ZpbkVoXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![833844a949889491d3b4946eafeff188](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/833844a949889491d3b4946eafeff188.png)
 
 我们使用idapy获取这个rsp寄存器的值
 
@@ -3170,7 +3156,7 @@ if value_at_address:
     print(hex(value),end=',')
 ```
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=ZTUyYzU1MzI0YTM3Y2I1NGRmZWI4MzE5YzljNmZhMmNfNVRiWVlVNGhlbGZjQ1pKMHk0WVJRTktKbU5sU2R5U2lfVG9rZW46Wk1ZMmJMZE55b1VJZ1R4bHdHbGNuRVVxblBmXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![8e923a144484c64afe7b5bf94d0da1ae](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/8e923a144484c64afe7b5bf94d0da1ae.png)
 
 获取的hex值其实是emoji的hex值
 
@@ -3192,4 +3178,4 @@ for i in range(0,len(a),4):
 
 然后我们已知sm4的key和iv，直接cyperchef梭了得到flag
 
-![img](https://y1dc05f5aki.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDhiMDVlZGJjZGY0ZGQ3MDc3MjNhMmZhMzdjYzQxYmZfWjR6ZERUYm5FZHpWbE1MUHppajJjOU43bUdDS2VxV2FfVG9rZW46V0Nia2JzVkZPb3R5ZzZ4VFRvYWNhVHRobkplXzE3MzAzMDcxMTM6MTczMDMxMDcxM19WNA)
+![49847ac3bb801890eb920a59eec6b880](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/49847ac3bb801890eb920a59eec6b880.png)
