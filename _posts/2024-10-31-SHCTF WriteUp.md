@@ -4,7 +4,7 @@ title:      SHCTF2024 WriteUp
 subtitle:   记录一下
 date:       2024-10-31
 author:     Aaron
-header-img: img/post-bg-android.jpg
+header-img: img/vagabond.jpg
 catalog: true
 tags:
     - Rev
