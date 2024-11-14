@@ -576,9 +576,9 @@ print(flag)
 
 ## [Week1]ezDBG
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDU3YzlmYWFiYmY0YTI1NDY1OGFlZWFkNWY4NDBiNWVfeGJQajU5UHVFdEtiRnhtMTJGNEg5cEk1SnBaM1BRNklfVG9rZW46SXA1S2I3TGV1b1JUeUV4YmxtS2NGWFVwblllXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![1f23b4d99be3fc3e8a28d6625ce29b93](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/1f23b4d99be3fc3e8a28d6625ce29b93.png)
 
-![img](https://z0x1rjy6t8m.feishu.cn/space/api/box/stream/download/asynccode/?code=ZDg3YjJmZGUxZTE3NjNiYTMxOThjMWZmNWIzZTVhMjJfeFlCSVlpRHRGaW42eXBsVm91WXd0MDZac1daV2VBNzJfVG9rZW46SEpFNWI4aUtZb0NOekV4S29jNWM5OGpDbjRmXzE3MzAzMDcwMzM6MTczMDMxMDYzM19WNA)
+![8395d93a51768ac158c1da718acf4c33](https://cdn.jsdelivr.net/gh/Aar0n3906/blog-img/8395d93a51768ac158c1da718acf4c33.png)
 
 # Pwn
 
