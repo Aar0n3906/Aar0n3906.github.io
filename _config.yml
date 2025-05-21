@@ -99,16 +99,19 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "🐷",
+        title: "SWDD",
         href: "https://shangwendada.top/"
     },{
-        title: "lyf",
+        title: "Ak0er",
         href: "https://Ak0er.github.io/"
     },{
-        title: "fhh",
-        href: "https://fuhaohua123.github.io/"
+        title: "N1ght",
+        href: "https://www.n1ght.cn/"
     },{
-        title: "宝宝",
-        href: "https://user.qzone.qq.com/3237789658"
+        title: "LilRan",
+        href: "https://blog.xinshi.fun/"
+    },{
+        title: "洋参",
+        href: "https://twogoat.github.io/"
     }
 ]
